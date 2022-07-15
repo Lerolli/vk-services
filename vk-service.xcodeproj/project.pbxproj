@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3AF8EF662881209F004F42AF /* vk_serviceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF8EF652881209F004F42AF /* vk_serviceApp.swift */; };
-		3AF8EF682881209F004F42AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF8EF672881209F004F42AF /* ContentView.swift */; };
+		3A6789932881A0B1000A82F3 /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6789922881A0B1000A82F3 /* ImageManager.swift */; };
+		3AF8EF662881209F004F42AF /* vk-serviceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF8EF652881209F004F42AF /* vk-serviceApp.swift */; };
+		3AF8EF682881209F004F42AF /* ServicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF8EF672881209F004F42AF /* ServicesView.swift */; };
 		3AF8EF6A288120A0004F42AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AF8EF69288120A0004F42AF /* Assets.xcassets */; };
 		3AF8EF6D288120A0004F42AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AF8EF6C288120A0004F42AF /* Preview Assets.xcassets */; };
+		3AF8EF75288120EA004F42AF /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 3AF8EF74288120EA004F42AF /* SwiftyJSON */; };
+		3AF8EF78288120FC004F42AF /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3AF8EF77288120FC004F42AF /* Alamofire */; };
+		3AF8EF7B28812170004F42AF /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF8EF7A28812170004F42AF /* BaseRequest.swift */; };
+		3AF8EF7D288123E0004F42AF /* ServiceCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF8EF7C288123E0004F42AF /* ServiceCellModel.swift */; };
+		3AF8EF81288126B6004F42AF /* ServiceCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF8EF80288126B6004F42AF /* ServiceCellView.swift */; };
+		3AF8EF8528812D77004F42AF /* ImageRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF8EF8428812D77004F42AF /* ImageRequest.swift */; };
+		3AF8EF8728812E60004F42AF /* ServicesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF8EF8628812E60004F42AF /* ServicesManager.swift */; };
+		3AF8EF89288130BB004F42AF /* ServiceRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF8EF88288130BB004F42AF /* ServiceRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A6789922881A0B1000A82F3 /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
 		3AF8EF622881209F004F42AF /* vk-service.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vk-service.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3AF8EF652881209F004F42AF /* vk_serviceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vk_serviceApp.swift; sourceTree = "<group>"; };
-		3AF8EF672881209F004F42AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3AF8EF652881209F004F42AF /* vk-serviceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "vk-serviceApp.swift"; sourceTree = "<group>"; };
+		3AF8EF672881209F004F42AF /* ServicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesView.swift; sourceTree = "<group>"; };
 		3AF8EF69288120A0004F42AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AF8EF6C288120A0004F42AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3AF8EF7A28812170004F42AF /* BaseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRequest.swift; sourceTree = "<group>"; };
+		3AF8EF7C288123E0004F42AF /* ServiceCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCellModel.swift; sourceTree = "<group>"; };
+		3AF8EF80288126B6004F42AF /* ServiceCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCellView.swift; sourceTree = "<group>"; };
+		3AF8EF8428812D77004F42AF /* ImageRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRequest.swift; sourceTree = "<group>"; };
+		3AF8EF8628812E60004F42AF /* ServicesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesManager.swift; sourceTree = "<group>"; };
+		3AF8EF88288130BB004F42AF /* ServiceRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +42,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AF8EF75288120EA004F42AF /* SwiftyJSON in Frameworks */,
+				3AF8EF78288120FC004F42AF /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +69,11 @@
 		3AF8EF642881209F004F42AF /* vk-service */ = {
 			isa = PBXGroup;
 			children = (
-				3AF8EF652881209F004F42AF /* vk_serviceApp.swift */,
-				3AF8EF672881209F004F42AF /* ContentView.swift */,
+				3AF8EF7928812158004F42AF /* API */,
+				3AF8EF8C2881328C004F42AF /* Managers */,
+				3AF8EF8E288132AE004F42AF /* Models */,
+				3AF8EF8D2881329D004F42AF /* Views */,
+				3AF8EF652881209F004F42AF /* vk-serviceApp.swift */,
 				3AF8EF69288120A0004F42AF /* Assets.xcassets */,
 				3AF8EF6B288120A0004F42AF /* Preview Content */,
 			);
@@ -65,6 +86,42 @@
 				3AF8EF6C288120A0004F42AF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3AF8EF7928812158004F42AF /* API */ = {
+			isa = PBXGroup;
+			children = (
+				3AF8EF7A28812170004F42AF /* BaseRequest.swift */,
+				3AF8EF8428812D77004F42AF /* ImageRequest.swift */,
+				3AF8EF88288130BB004F42AF /* ServiceRequest.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		3AF8EF8C2881328C004F42AF /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				3AF8EF8628812E60004F42AF /* ServicesManager.swift */,
+				3A6789922881A0B1000A82F3 /* ImageManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		3AF8EF8D2881329D004F42AF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3AF8EF672881209F004F42AF /* ServicesView.swift */,
+				3AF8EF80288126B6004F42AF /* ServiceCellView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3AF8EF8E288132AE004F42AF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3AF8EF7C288123E0004F42AF /* ServiceCellModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +140,10 @@
 			dependencies = (
 			);
 			name = "vk-service";
+			packageProductDependencies = (
+				3AF8EF74288120EA004F42AF /* SwiftyJSON */,
+				3AF8EF77288120FC004F42AF /* Alamofire */,
+			);
 			productName = "vk-service";
 			productReference = 3AF8EF622881209F004F42AF /* vk-service.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +172,10 @@
 				Base,
 			);
 			mainGroup = 3AF8EF592881209F004F42AF;
+			packageReferences = (
+				3AF8EF73288120EA004F42AF /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				3AF8EF76288120FC004F42AF /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 3AF8EF632881209F004F42AF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +202,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AF8EF682881209F004F42AF /* ContentView.swift in Sources */,
-				3AF8EF662881209F004F42AF /* vk_serviceApp.swift in Sources */,
+				3AF8EF7B28812170004F42AF /* BaseRequest.swift in Sources */,
+				3AF8EF682881209F004F42AF /* ServicesView.swift in Sources */,
+				3AF8EF81288126B6004F42AF /* ServiceCellView.swift in Sources */,
+				3AF8EF662881209F004F42AF /* vk-serviceApp.swift in Sources */,
+				3AF8EF89288130BB004F42AF /* ServiceRequest.swift in Sources */,
+				3AF8EF8528812D77004F42AF /* ImageRequest.swift in Sources */,
+				3AF8EF7D288123E0004F42AF /* ServiceCellModel.swift in Sources */,
+				3AF8EF8728812E60004F42AF /* ServicesManager.swift in Sources */,
+				3A6789932881A0B1000A82F3 /* ImageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +411,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3AF8EF73288120EA004F42AF /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		3AF8EF76288120FC004F42AF /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3AF8EF74288120EA004F42AF /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3AF8EF73288120EA004F42AF /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		3AF8EF77288120FC004F42AF /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3AF8EF76288120FC004F42AF /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3AF8EF5A2881209F004F42AF /* Project object */;
 }
